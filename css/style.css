@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+ol,ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.mr{
+    margin-right: 0 !important;
+}
+.common h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+.common a{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #282828;
+}
+.v_a{
+    vertical-align: middle;
+} 
+
+body{
+    position: relative;
+}
+                             /*----------------- Navbar ---------------*/
+
+.menubar{
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+   padding-top: 10px;
+}  
+
+.jhamela{
+    background-color: #CADAE1;
+}                   
+.menubar .menu_search{
+  background-color: #FFFFFF;
+  border: 2px solid #0430CC;
+  border-radius: 50px;
+  padding: 6px 12px;
+  margin-left: 40px;
+}                             
+.menubar .menu_search input{
+  width: 250px;
+}                             
+.menubar .menu_search a i{
+    margin-left: -20px;
+    color: #0430CC;
+    font-size: 18px;
+
+}                             
+.menubar .menu_search ::placeholder{
+  color: #add7e0;
+  font-size: 18px;
+}                             
+.menubar .menu_button a{
+    font-size: 18px;
+   padding: 6px 30px;
+   border: 2px solid #0430CC;
+   border-radius: 50px;
+   font-weight: 600;
+   margin-left: 30px;
+   transition: 0.4s;
+}  
+.menubar .menu_button a:hover{
+     background-color: #0430CC;
+     color: #FFFFFF;
+}  
+    
+.menubar .navbar-nav .nav-link {
+   
+    font-size: 18px;
+	margin-right: 40px;
+    color: rgba(0, 0, 0, 0.274);
+}                       
+.menubar .navbar-nav .nav-link.active{
+	 color: #000000;
+}         
+             
+
+
+                                       /* -----------Banner----------------- */
+
+#banner{
+    font-family: 'Inter', sans-serif;
+   padding-top: 50px;
+    
+}                                       
+#banner .banner_text h2{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 700;
+}                                       
+#banner .banner_text a{
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 8px 30px;
+  border: 2px solid #0430CC;
+  border-radius: 50px;
+  transition: 0.5s;
+}                                       
+#banner .banner_text p{
+ line-height: 30px;
+ padding-right: 60px;
+}                                       
+#banner a:hover{
+  background-color: #0430CC;
+  color: #FFFFFF;
+}                                       
+                                     
+#banner a:hover{
+  background-color: #0430CC;
+  color: #FFFFFF;
+}                                       
+                                     
+.margin_top{
+  margin-top: 220px;
+}                                    
+                                   
+.banner_right .num h3{
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #0430CC;
+    font-weight: 600;
+}                                    
+                                     
+                        /* -----University---------- */
+
+#university{
+    padding: 60px 0 ;
+}                        
+
+
+                             /* -------Features ---------*/
+
+#features{
+    font-family: 'Inter', sans-serif;
+    background-color: #F8F9FB;
+    padding: 100px 0;
+}    
+.f_bg{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.f_btn a{
+    font-weight: 600;
+    padding: 8px 20px;
+    background-color: #F8F9FB;
+    border-radius: 6px;
+    transition: 0.3s;
+
+}
+.f_btn a:hover{
+    background-color: #F47458;
+    color: #FFFFFF;
+}
+.f_text h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 30px;
+    
+}
+.f_text p{
+  font-size: 14px;
+  margin: 10px 0;
+    
+}
+.slick-slide img {
+	display: inline-block !important;
+}
+.slick-dots{
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-60%);
+
+}
+.slick-dots li{
+   display: inline-block;
+  margin:  0 10px;
+   height: 12px;
+   width: 12px;
+   border-radius: 50%;
+   background-color: #CADAE1;
+  
+}
+.slick-dots li button{
+   color: transparent;
+   border: none;
+   height: 12px;
+   width: 00px;
+  border-radius: 15px;
+  background-color: #5E79D6;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+.slick-dots .slick-active button{
+  opacity: 1;
+  width: 30px;
+  margin-left: -10px;
+}
+
+
+
+
+                              /* Top Category */
+#category{
+    margin: 160px 0;
+    font-family: 'Inter', sans-serif;
+}                              
+
+.categoty_item{
+    border: 1px solid #ECEEF8;
+    border-radius: 12px;
+    padding: 40px 0;
+    transition: 0.3s;
+}
+.categoty_item:hover{
+    box-shadow: inset 2px 1px 3px 0px #282828;
+}
+.categoty_item h3{
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+
+                                    /* Rating */
+
+#rating{
+    background-color: #F8F9FB;
+    padding: 100px 0  152px 0;
+}                                    
+                                    
+#rating .slick-dots{
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-60%);
+
+}
+
+
+                             /*----------- Footer------- */
+
+#footer{
+    font-family: 'Inter', sans-serif;
+    padding: 130px 0 95px 0;
+}  
+.f_2 li{
+    margin: 10px 0;
+   margin-left: 30px;
+   transition: 0.3s;
+}                           
+.f_2 li:hover{
+    cursor: pointer;
+   color: #F47458;
+}                           
+
+.icon ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+.icon ul li a{
+    height: 40px;
+    width: 40px;
+    background-color: #F8F9FB;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.icon ul li :hover{
+    background-color: #0430CC;
+    color: #F8F9FB;
+}
+
+.google_pay{
+    margin-left: 30px;
+   padding: 6px 0;
+    background-color: #282828;
+    border-radius: 10px;
+}
+.google_pay:hover{
+  cursor: pointer;
+}
+.g_d{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.g_d p{
+    font-size: 10px;
+}
+.g_d h4{
+    font-size: 16px;
+}
